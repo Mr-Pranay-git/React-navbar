@@ -8,7 +8,6 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 const Layout = () => {
   return (
     <>
-      <div>hehe</div>
       <Navbar />
       <Outlet />
     </>
