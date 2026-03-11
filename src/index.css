@@ -42,11 +42,13 @@ nav{
   gap: 34px;
   background-color: black;
 } 
-
-li{
-  list-style: none;
+a {
+  text-decoration: none;
   color: white;
+  padding: 25px;
 }
-nav li{
-  
+
+.red{
+  background-color: red;
+  color: white;
 }
