@@ -9,6 +9,7 @@ html{
   font-family: "urbanist";
 }
 
+
 p,li,a, button{
   font-size: 1.7rem;
   letter-spacing: .1rem;
@@ -76,12 +77,24 @@ nav ul {
         .menu-mobile{
           position: absolute;
           top: 10rem;
+          left:0;
+          background-color: white;
+          width: 100%;
         }
 
         .menu-mobile ul{
           display: flex;
           flex-direction: column;
+          align-items: center;
+           
+          & li:first-child{
+            margin-top: 1.2rem;
+          }
+          & li:last-child{
+            margin-bottom: 1.2rem;
+          }
         }
+    
   }
 
 
